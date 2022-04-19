@@ -1,3 +1,3 @@
-# Boudary-aware-Image-Inpainting
+# Intro
 The official code for the paper "Boudary-aware Image Inpainting with Multiple Auxiliary Cues"  
 Our code will be available soon...
