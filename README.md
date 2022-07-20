@@ -30,16 +30,16 @@ We use [Places2](http://places2.csail.mit.edu/) and [Paris Street-View](https://
 Arter downloading, make flist files:
 ```
 mkdir datasets
-python ./scripts/flist.py --path path_to_places2_train_set --output ./datasets/rgb_train.flist
+python ./scripts/flist.py --path path_to_rgb_train_set --output ./datasets/rgb_train.flist
 ```
 ## Depths
 Estimate depth image from RGB Images datasets by using [Dense Depth](https://arxiv.org/abs/1812.11941).
 The procedure is as follows.
-1. Fine-tune the pre-trained Dense Depth model by using [DIODE dataset](https://arxiv.org/abs/1908.00463). We use only outdoor images of DIODE dataset. 
+1. Fine-tune the pre-trained Dense Depth model by using [DIODE dataset](https://arxiv.org/abs/1908.00463). We only use outdoor images of DIODE dataset. 
 2. Estimate the depth image from RGB Images.
 3. make flist files:
 ```
-python ./scripts/flist.py --path path_to_mask_train_set --output ./datasets/depth_train.flist
+python ./scripts/flist.py --path path_to_depth_train_set --output ./datasets/depth_train.flist
 ```
 
 ## Masks
@@ -59,9 +59,23 @@ Our model is trained in three stages:
 2. training depth model
 3. training the inpaint model  
 To train the model, change the "model" option number in `train.sh`.  
-For examples, Edge:1, Depth:5, Inpaint:6. Then, run `sh train.sh`
+For examples, Edge:1, Depth:5, Inpaint:6. Then, run ```sh train.sh```
 
 ## Testing
 Download the pre-trained models from the following links and copy them under `./checkpoints`
 our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing), [Places]()
+
+To test our model, change the dataset path in `test.sh` and run ```sh test.sh```
+
+
+
+
+
+
+
+
+
+
+
+
 
