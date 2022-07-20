@@ -61,7 +61,8 @@ Our model is trained in three stages:
 To train the model, change the "model" option number in `train.sh`.  
 For examples, Edge:1, Depth:5, Inpaint:6. Then, run 
 ```
-sh train.sh```
+sh train.sh
+```
 
 ## Testing
 Download the pre-trained models from the following links and copy them under `./checkpoints`
@@ -69,7 +70,8 @@ our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folde
 
 To test our model, change the dataset path in `test.sh` and run 
 ```
-sh test.sh```
+sh test.sh
+```
 
 
 
