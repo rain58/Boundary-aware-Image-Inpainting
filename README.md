@@ -73,9 +73,9 @@ To test our model, change the dataset path in `test.sh` and run
 sh test.sh
 ```
 
-
-
-
+# Acknowledgement
+This work is based on the [EdgeConnect](https://github.com/knazeri/edge-connect).
+We very appreciate their hard work and great research.
 
 
 
