@@ -40,10 +40,12 @@ Arter downloading, make flist files:
 python ./scripts/flist.py --path path_to_mask_train_set --output ./datasets/mask_train.flist
 ```
 
-# Training
+# Getting Started
+## Training
+Train our model:
+``` sh train.sh ```
 
-
-#Testing
+## Testing
 Download the pre-trained models from the following links and copy them under `./checkpoints`
 our pretrained model is [here](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing)
 
