@@ -8,21 +8,21 @@ GPU: [0,1]            # list of gpu ids
 DEBUG: 0            # turns on debugging mode
 VERBOSE: 0          # turns on verbose mode in the output console
 
-TRAIN_FLIST: ./datasets/paris_train.flist
-VAL_FLIST: ./datasets/paris_val.flist
-TEST_FLIST: ./datasets/paris_test.flist
+TRAIN_FLIST: ./datasets/rgb_train.flist
+VAL_FLIST: ./datasets/rgb_val.flist
+TEST_FLIST: ./datasets/rgb_test.flist
 
-TRAIN_EDGE_FLIST: ./datasets/psv_edges_train.flist
-VAL_EDGE_FLIST: ./datasets/psv_edges_val.flist
-TEST_EDGE_FLIST: ./datasets/psv_depth_test.flist
+TRAIN_EDGE_FLIST: ./datasets/edges_train.flist
+VAL_EDGE_FLIST: ./datasets/edges_val.flist
+TEST_EDGE_FLIST: ./datasets/edges_test.flist
 
-TRAIN_DEPTH_FLIST: ./datasets/paris_train_depth.flist
-VAL_DEPTH_FLIST: ./datasets/paris_val_depth.flist
-TEST_DEPTH_FLIST: ./datasets/paris_test_depth_local.flist
+TRAIN_DEPTH_FLIST: ./datasets/depth_train.flist
+VAL_DEPTH_FLIST: ./datasets/depth_val.flist
+TEST_DEPTH_FLIST: ./datasets/depth_test.flist
 
-TRAIN_MASK_FLIST: ./datasets/mask.flist
-VAL_MASK_FLIST: ./datasets/test_mask.flist
-TEST_MASK_FLIST: ./datasets/test_mask.flist
+TRAIN_MASK_FLIST: ./datasets/mask_train.flist
+VAL_MASK_FLIST: ./datasets/mask_val.flist
+TEST_MASK_FLIST: ./datasets/mask_test.flist
 
 LR: 0.0001                    # learning rate
 D2G_LR: 0.1                   # discriminator/generator learning rate ratio
