@@ -35,7 +35,7 @@ python ./scripts/flist.py --path path_to_rgb_train_set --output ./datasets/rgb_t
 ## Depths
 Estimate depth image from RGB Images datasets by using [Dense Depth](https://arxiv.org/abs/1812.11941).
 The procedure is as follows.
-1. Fine-tune the pre-trained Dense Depth model by using [DIODE](https://arxiv.org/abs/1908.00463). We only use **outdoor** images of DIODE dataset. Please download from [here](https://diode-dataset.org/)
+1. Fine-tune the pre-trained Dense Depth model by using [DIODE](https://arxiv.org/abs/1908.00463).  We only use **outdoor** images of DIODE dataset. Please download from [here](https://diode-dataset.org/)
 2. Estimate the depth image from RGB Images.
 3. make flist files:
 ```
@@ -66,7 +66,7 @@ sh train.sh
 
 ## Testing
 Download the pre-trained models from the following links and copy them under `./checkpoints`
-our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing), [Places]()
+our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing), [Places](https://drive.google.com/drive/folders/1hGad3QjqrTjPDSTf8_cFGPsPZuWuJa5k?usp=sharing)
 
 To test our model, change the dataset path in `test.sh` and run 
 ```
