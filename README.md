@@ -65,7 +65,7 @@ sh train.sh
 ```
 
 ## Testing
-Download the pre-trained models from the following links and copy them under `./checkpoints`
+Download the pre-trained models from the following links and copy them under `./checkpoints`  
 our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing), [Places](https://drive.google.com/drive/folders/1hGad3QjqrTjPDSTf8_cFGPsPZuWuJa5k?usp=sharing)
 
 To test our model, change the dataset path in `test.sh` and run 
