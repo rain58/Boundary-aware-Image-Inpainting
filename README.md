@@ -12,8 +12,11 @@ Download paper [here](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/pape
 
 # Usage
 ## 1.Clone the repository
-'''git clone https://github.com/rain58/Boudary-aware-Image-Inpainting.git'''
+```
+git clone https://github.com/rain58/Boudary-aware-Image-Inpainting.git
+```
 ## 2.Download 
 
 
 our pretrained model is [here](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing)
+
