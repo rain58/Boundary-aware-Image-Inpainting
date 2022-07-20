@@ -59,14 +59,16 @@ Our model is trained in three stages:
 2. training depth model
 3. training the inpaint model  
 To train the model, change the "model" option number in `train.sh`.  
-For examples, Edge:1, Depth:5, Inpaint:6. Then, run ```
+For examples, Edge:1, Depth:5, Inpaint:6. Then, run 
+```
 sh train.sh```
 
 ## Testing
 Download the pre-trained models from the following links and copy them under `./checkpoints`
 our pre-trained model : [Paris Street-View](https://drive.google.com/drive/folders/1GOGqqkOKjS3N2aXRe_7tynJ58gDfJIme?usp=sharing), [Places]()
 
-To test our model, change the dataset path in `test.sh` and run ```
+To test our model, change the dataset path in `test.sh` and run 
+```
 sh test.sh```
 
 
