@@ -15,7 +15,7 @@ Download paper [here](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/pape
 1.Clone the repository
 
 ```
-git clone https://github.com/rain58/Boudary-aware-Image-Inpainting.git  
+git clone https://github.com/rain58/Boundary-aware-Image-Inpainting.git  
 cd Boundary-aware-Image-Inpainting
 ```
 
